@@ -1,1 +1,27 @@
-﻿<Properties StartupItem="owncloud-pcl/owncloud-pcl.csproj" />
+﻿<Properties StartupItem="owncloud-pcl/owncloud-pcl.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="owncloud-pcl-ios-unit-tests/UnitTestAppDelegate.cs">
+    <Files>
+      <File FileName="owncloud-pcl/OwnCloudClient.cs" Line="13" Column="2" />
+      <File FileName="README.md" Line="14" Column="1" />
+      <File FileName="owncloud-pcl-ios-unit-tests/UnitTestAppDelegate.cs" Line="23" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="owncloud-pcl" expanded="True" selected="True">
+            <Node name="Solution Items" expanded="True" />
+            <Node name="owncloud-pcl" expanded="True">
+              <Node name="Packages" expanded="True" />
+            </Node>
+            <Node name="owncloud-pcl-ios-unit-tests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
