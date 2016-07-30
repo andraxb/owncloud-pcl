@@ -48,7 +48,7 @@ namespace owncloudpcl
 		}
 
 		/// <summary>
-		/// Login the specified user and password to the OwnCloud API.
+		/// Log in the specified user and password to the OwnCloud API.
 		/// </summary>
 		/// <param name="user">User.</param>
 		/// <param name="password">Password.</param>
@@ -56,5 +56,11 @@ namespace owncloudpcl
 
 		}
 
+		/// <summary>
+		/// Logs the User out.
+		/// </summary>
+		public void Logout() {
+			
+		}
 	}
 }

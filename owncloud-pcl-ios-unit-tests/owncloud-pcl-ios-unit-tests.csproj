@@ -94,4 +94,10 @@
     <Compile Include="OwnCloudClientTests.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\owncloud-pcl\owncloud-pcl.csproj">
+      <Project>{5B564A6F-B20E-4422-9907-A98F15CDF717}</Project>
+      <Name>owncloud-pcl</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

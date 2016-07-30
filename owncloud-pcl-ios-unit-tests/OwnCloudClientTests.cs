@@ -1,6 +1,7 @@
 ﻿
 using System;
 using NUnit.Framework;
+using owncloudpcl;
 
 namespace owncloudpcliosunittests
 {
@@ -12,6 +13,23 @@ namespace owncloudpcliosunittests
 	[TestFixture]
 	public class OwnCloudClientTests
 	{
+		private OwnCloudClient _client;
+
+		[SetUp]
+		public void Setup() {
+			_client = new OwnCloudClient ("");
+		}
+
+		[TearDown]
+		public void Dispose() { 
+			// TODO: disconnect from the client to make sure the session has ended on the Server.
+		}
+
+		[Test]
+		public void TestLogin() {
+
+		}
+
 		[Test]
 		public void Pass ()
 		{
